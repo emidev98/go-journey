@@ -79,6 +79,7 @@ func displayChannel(f INotificationFactory) {
 func main() {
 	smsFactory, _ := getNotificationsFactory("SMS")
 	emailFactory, _ := getNotificationsFactory("Email")
+	_, err := getNotificationsFactory("mail")
 
 	sendNotification(smsFactory)
 	displaySender(smsFactory)
@@ -87,4 +88,8 @@ func main() {
 	sendNotification(emailFactory)
 	displaySender(emailFactory)
 	displayChannel(emailFactory)
+
+	if err != nil {
+		fmt.Printf(err.Error())
+	}
 }
