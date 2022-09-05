@@ -13,4 +13,6 @@
 | [3 Poo/structs](./poo/structs/)                   | Data structures with getters setters and constructors                           |
 | [3.1 Poo/factory](./poo/factory/)                 | Factory pattern implementation in go                                            |
 | [4 Modules](./modules/)                           | Modules creation, implementation and alias                                      |
+| [5 Testing/unit](./testing/unit)                  | Information about how to run tests, different tools and examples on unit test   |
+| [5.1 Testing/mocks](./testing/mocks/)             | Example of mocked tests based on the example from inheritance                   |
 |                                                   |                                                                                 |
