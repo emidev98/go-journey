@@ -15,4 +15,5 @@
 | [4 Modules](./modules/)                           | Modules creation, implementation and alias                                      |
 | [5 Testing/unit](./testing/unit)                  | Information about how to run tests, different tools and examples on unit test   |
 | [5.1 Testing/mocks](./testing/mocks/)             | Example of mocked tests based on the example from inheritance                   |
+| [6 Concurrency](./concurrency/)                   | From go routines to multithread WebServer                                       |
 |                                                   |                                                                                 |

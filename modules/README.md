@@ -9,7 +9,7 @@ Modules can be added to the project by using the following command adding the ro
 A version can be defined at the end of the module in case you want to use a different version than the default:
 > go get github.com/donvito/hellomod/v2
 
-There is also a posibility of having both modules coexisting in the same program by defining an alias to one of them:
+There is also a possibility of having both modules coexisting in the same program by defining an alias to one of them:
 
 ```go
 package main
